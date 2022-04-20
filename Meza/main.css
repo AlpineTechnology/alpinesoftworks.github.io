@@ -79,7 +79,6 @@ nav{
 
 .links ul li{
     list-style: none;
-    text-align: left;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
@@ -102,7 +101,7 @@ nav{
 }
 
 .links ul li:hover::after{
-    width: 85%;
+    width: 100%;
 }
 
 .head::after{
