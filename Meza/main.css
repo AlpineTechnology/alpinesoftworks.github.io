@@ -96,12 +96,13 @@ nav{
     height: 3px;
     background: rgb(255, 118, 128);
     display: block;
+    text-align: left;
     margin: auto;
     transition: 0.2s;
 }
 
 .links ul li:hover::after{
-    width: 100%;
+    width: 85%;
 }
 
 .head::after{
