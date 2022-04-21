@@ -159,7 +159,7 @@ nav{
 
 .column{
     flex-basis: 31%;
-    background: #fff3f3;
+    background: rgb(255, 118, 128);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
