@@ -32,3 +32,50 @@ h1, h2, h3, h4, p, a{
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+nav{
+    background: transparent;
+    display: flex;
+    padding: 1% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    background: transparent;
+    flex: 1;
+    text-align: center;
+}
+
+.links ul{
+    background: transparent;
+}
+
+.links ul li{
+    background: transparent;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.links ul li::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: rgb(255, 118, 128);
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.links ul li:hover::after{
+    color: rgb(30, 176, 230);
+    transition: 0.3s;
+}
