@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background: #28282B;
+}
+
+h1, h2, h3, h4, p, a{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    background: transparent;
+}
