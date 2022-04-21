@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background: #28282B;
+}
+
+h1, h2, h3, h4, p, a{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    background: transparent;
+}
+
+.Center{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: transparent;
+    background-image: url(BGimage.jpg)
+}
+
+.MainContainer{
+    background: transparent;
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.MainContainer h1{
+    font-size: 50px;
+    background: transparent;
+}
+.MainContainer p{
+    font-size: 25px;
+    background: transparent
+}
+
+.MainContainer a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 12px 34px;
+    font-size: 18px;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+.MainContainer a:hover{
+    border: 1px solid rgb(255, 118, 128);
+    background: rgb(255, 118, 128);
+    transition: 0.3s;
+}
+
+nav{
+    background: transparent;
+    display: flex;
+    padding: 1% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head{
+    text-align: left;
+    font-size: 25px;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.links{
+    background: transparent;
+    flex: 1;
+    text-align: center;
+}
+
+.links ul{
+    background: transparent;
+}
+
+.links ul li{
+    background: transparent;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.links ul li::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: rgb(255, 118, 128);
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.links ul li:hover::after{
+    width: 100%;
+}
+
+.head:hover{
+    color: rgb(255, 118, 128);
+    transition: 0.3s;
+}
+
+.About{
+    width: 100%;
+    height: 65vh;
+    background-position: center;
+    position: relative;
+}
+
+.Frame{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  padding: 25px 150px;
+  background: #333333;
+  border-radius: 5px;
+  max-width: 50%;
+  height: 25vh;
+  box-shadow: 2px 2px 2px 4px transparent;
+  transition: 0.4s
+}
+
+.Frame:hover{
+  box-shadow: 2px 2px 2px 4px #404040;
+  transition: 0.3s
+}
+
+
+.Frame h1{
+  font-size: 35px;
+  text-align: center;
+}
+
+.Frame p{
+  font-size: 15px;
+  text-align: center;
+  color: #6e6e6e
+}
