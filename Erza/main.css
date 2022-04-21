@@ -130,6 +130,12 @@ nav{
     padding-top: 100px;
 }
 
+.Rows{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .About h1{
     font-size: 36px;
     font-weight: 600;
@@ -149,12 +155,6 @@ nav{
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
-}
-
-.Rows{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
 }
 
 .column{
